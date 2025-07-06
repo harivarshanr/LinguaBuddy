@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🗣️ LinguaBuddy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**LinguaBuddy** is an AI-powered, voice-interactive language learning web app that helps users improve pronunciation and vocabulary in different languages, starting with **French** and **Tamil**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🎤 **Voice-based learning**: Speak words and get feedback on accuracy
+- 🌐 **Multilingual support**: Practice translating and pronouncing sentences
+- 🧠 **Real-time evaluation**: Instant scoring with mistake highlighting
+- 📊 **Progress tracking**: Score and completion metrics for each level
+- 📁 **CSV-based content**: Easily expandable lesson structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend**: React.js
+- **Voice Recognition**: Web Speech API (or similar)
+- **Data Format**: CSV for lesson content
+- **Styling**: Tailwind CSS / Custom CSS
+- **Deployment**: Vercel / Netlify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    git clone https://github.com/harivarshanr/LinguaBuddy.git
+    cd LinguaBuddy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install dependencies
 
-### `npm run eject`
+    npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Run the development server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Then open your browser at:  
+[http://localhost:3000](http://localhost:3000)
+🖼️ Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎯 Pronunciation Prompt 
+<img width="1438" alt="Screenshot 2025-07-06 at 1 42 18 PM" src="https://github.com/user-attachments/assets/9ebd45db-9c10-411a-819d-f9c275b30ecc" />
+✅ Correct Answer with Score
+<img width="1438" alt="Screenshot 2025-07-06 at 1 42 37 PM" src="https://github.com/user-attachments/assets/7dfa5d12-a1bb-4e8d-a592-8e82bb70b902" />
+❌ Incorrect Pronunciation
+<img width="1438" alt="Screenshot 2025-07-06 at 1 42 51 PM" src="https://github.com/user-attachments/assets/0b3420db-9302-47e3-a6db-03047d878feb" />
